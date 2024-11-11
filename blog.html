@@ -44,5 +44,41 @@
         </div>
       </div>
     </nav>
+    <main class="container">
+      <form action="" class="form-control" id="submitForm">
+        <input
+          type="text"
+          name="Name"
+          class="form-control mt-2"
+          id="inputNameComment"
+          placeholder="Name"
+        />
+        <input
+          type="email"
+          name="Email"
+          class="form-control mt-2"
+          id="inputEmailComment"
+          placeholder="Email"
+        />
+        <input
+          type="text"
+          id="inputMessageComment"
+          class="form-control mt-2"
+          placeholder="Comment"
+        />
+
+        <button class="btn color-gray" onclick="addComment()">
+          Add Comment
+        </button>
+      </form>
+      <div id="commentList">
+        <div class="row mt-2 mb-5">
+          <h3>nama</h3>
+          <p>email</p>
+          <p>textarea</p>
+        </div>
+      </div>
+    </main>
+    <script src="js/scriptComment.js"></script>
   </body>
 </html>

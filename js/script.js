@@ -4,7 +4,6 @@ const achievementList = localStorage.getItem("achievementList")
 renderList();
 
 function addAchievement() {
-  console.log(document.querySelector("#inputAchievement").value);
   let achievement = document.getElementById("inputAchievement").value;
   const temp = {
     id: achievementList.length + 1,
