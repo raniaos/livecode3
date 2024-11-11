@@ -1,0 +1,41 @@
+.nav-item {
+  margin: 20px;
+}
+
+.carousel-item {
+  object-fit: cover;
+}
+
+.banner-left {
+}
+
+.color-yellow {
+  background-color: #ffea00;
+  color: black;
+}
+
+.color-gray {
+  background-color: #414146;
+  color: white;
+}
+
+.text-yellow {
+  color: #ffea00;
+}
+
+.title-text {
+  font-size: 36pt;
+  font-weight: 600;
+}
+
+.card-photos {
+  /* height: 100px; */
+}
+
+.masonry-grid {
+  column-count: 6;
+}
+
+.color-orange {
+  background-color: #ff8100;
+}
